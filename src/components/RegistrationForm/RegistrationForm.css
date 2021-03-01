@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+form > footer {
+  display: flex;
+  flex-direction: column;
+}
+
+form > footer > a {
+  width: fit-content;
+  color: #38618c;
+}
+
+form > footer > a:active { color: #ff5470; }
+
+@media all and (min-width: 600px) {
+  form {
+    width: 50vw;
+    border-radius: 3px;
+    background-color: #38618c;
+    padding: 20px;
+  }
+
+  form > footer > a:link { color: white; }
+  form > footer > a:visited { color: white; }
+  form > footer > a:hover { color: #ff5470; transition: all 0.4s ease }
+  form > footer > a:active { color: #D22A46; }
+}
+

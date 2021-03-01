@@ -50,7 +50,7 @@ class LoginForm extends Component {
         <div role='alert'>
           {error && <p>{error}</p>}
         </div>
-        <div>
+        <div className="field">
           <Label htmlFor='login-username-input'>
             Username
           </Label>
@@ -61,7 +61,7 @@ class LoginForm extends Component {
             required
           />
         </div>
-        <div>
+        <div className="field">
           <Label htmlFor='login-password-input'>
             Password
           </Label>

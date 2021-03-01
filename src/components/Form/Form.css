@@ -1,0 +1,22 @@
+.Label {
+  color: #38618c;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.Input {
+  height: 3rem;
+  border: 2px solid #38618c;
+  font-size: 24px;
+  color: black;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 5px;
+}
+
+@media all and (min-width: 600px) {
+  .Label {
+    color: #ffffff;
+  }
+}

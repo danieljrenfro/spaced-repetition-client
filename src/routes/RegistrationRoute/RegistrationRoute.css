@@ -1,0 +1,16 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration-desc {
+  margin-left: 20px;
+  align-self: flex-start;
+}
+
+@media all and (min-width: 600px) {
+  .registration-desc {
+    margin-left: 15px;
+  }
+}
