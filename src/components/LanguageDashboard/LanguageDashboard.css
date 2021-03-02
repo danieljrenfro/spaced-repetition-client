@@ -1,0 +1,27 @@
+.language-dashboard {
+  text-align: center;
+  width: 90vw;
+  height: 70vh;
+  border: 2px solid #38618c;
+  border-radius: 3px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.total-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px 5px 15px;
+  border-bottom: 2px solid #38618c;
+}
+
+.total {
+  margin: 10px 0px 10px 0px;
+}
+
+@media all and (min-width: 600px) {
+  .language-dashboard {
+    width: 55vw;
+  }
+}

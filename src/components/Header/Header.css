@@ -24,6 +24,7 @@ h1 > a:active { color: #ff5470; }
 
 nav {
   margin: 10px 0px 10px 0px;
+  text-align: center;
 }
 
 nav > a {
@@ -31,15 +32,21 @@ nav > a {
   font-size: 18px;
 }
 
-nav > a:first-of-type {
+/* nav > a:first-of-type {
   margin-right: 15px;
-}
+} */
 
 nav > a:visited { color: white; }
 nav > a:active { color: #ff5470; }
 
+
+
 /* DESKTOP VIEW */
 @media all and (min-width: 600px) {
+  .username {
+    margin: 5px 25px 0px 0px;
+  }
+  
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -59,6 +66,9 @@ nav > a:active { color: #ff5470; }
   h1 > a:active { color: #D22A46 }
 
   /* NAV STYLES */
+  nav {
+    text-align: right;
+  }
 
   nav > a:first-of-type {
     margin-right: 25px;

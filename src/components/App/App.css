@@ -3,3 +3,17 @@ h2 {
   font-size: 36px;
   margin: 12px 0px 12px 0px;
 }
+
+h3, h4 {
+  color: #ff5470;
+}
+
+h3 {
+  background-color: #38618c;
+  margin: 0px;
+  padding: 15px 0px 15px 0px;
+}
+
+h4 {
+  margin: 10px 0px 10px 0px;
+}

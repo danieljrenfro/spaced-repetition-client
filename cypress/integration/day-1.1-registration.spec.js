@@ -107,11 +107,11 @@ describe(`User story: Register an account`, function() {
         .as('postRegister')
     })
 
-    it(`redirects to /login`, () => {
+    it(`redirects to dashboard /`, () => {
       const newUser = {
-        name: 'Test name',
+        name: 'Test Name',
         username: 'test-username',
-        password: 'test-password',
+        password: 'Test-password1!',
       }
       cy.visit('/register')
 
@@ -125,7 +125,7 @@ describe(`User story: Register an account`, function() {
         cy.root().submit()
         cy.wait('@postRegister')
           .url()
-          .should('eq', `${Cypress.config().baseUrl}/login`)
+          .should('eq', `${Cypress.config().baseUrl}/`)
       })
     })
   })
