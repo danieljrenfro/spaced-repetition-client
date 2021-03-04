@@ -1,0 +1,13 @@
+.learning-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-to-guess {
+  background-color: #38618c;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  margin: 8px;
+  border-radius: 3px;
+}

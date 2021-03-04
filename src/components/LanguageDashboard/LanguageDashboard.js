@@ -18,9 +18,7 @@ class LanguageDashboard extends Component {
     return (
       <section className="language-dashboard">
         <h3>Words to practice</h3>
-        <div className="total-score">
-          <h4>Total correct answers: {score}</h4>
-        </div>
+        <h4 className="total-score">Total correct answers: {score}</h4>
         <WordList words={words}/>
       </section>
     )

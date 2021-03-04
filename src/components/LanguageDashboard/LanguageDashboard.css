@@ -9,15 +9,12 @@
 }
 
 .total-score {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 15px 5px 15px;
+  padding: 15px;
   border-bottom: 2px solid #38618c;
-}
-
-.total {
-  margin: 10px 0px 10px 0px;
+  vertical-align: center;
+  text-align: center;
+  margin-top: 0px;
+  background-color: white
 }
 
 @media all and (min-width: 600px) {

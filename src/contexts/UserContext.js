@@ -7,10 +7,16 @@ const UserContext = React.createContext({
   user: {},
   error: null,
   words: [],
+  head: {},
+  answer: {},
+  guess: '',
   setError: () => {},
   clearError: () => {},
   setWords: () => {},
   setUser: () => {},
+  setAnswer: () => {},
+  setHead: () => {},
+  setGuess: () => {},
   processLogin: () => {},
   processLogout: () => {},
 })
@@ -19,7 +25,7 @@ export default UserContext
 export class UserProvider extends Component {
   constructor(props) {
     super(props)
-    const state = { user: {}, error: null, words: [] }
+    const state = { user: {}, error: null, words: [], head: {}, answer: {}, guess: '' }
 
     const jwtPayload = TokenService.parseAuthToken()
 
@@ -63,6 +69,18 @@ export class UserProvider extends Component {
 
   setWords = words => {
     this.setState({ words })
+  }
+
+  setHead = head => {
+    this.setState({ head })
+  }
+
+  setAnswer = answer => {
+    this.setState({ answer })
+  }
+
+  setGuess = guess => {
+    this.setState({ guess })
   }
 
   processLogin = authToken => {
@@ -112,10 +130,16 @@ export class UserProvider extends Component {
       user: this.state.user,
       error: this.state.error,
       words: this.state.words,
+      head: this.state.head,
+      answer: this.state.answer,
+      guess: this.state.guess,
       setError: this.setError,
       clearError: this.clearError,
       setUser: this.setUser,
       setWords: this.setWords,
+      setHead: this.setHead,
+      setAnswer: this.setAnswer,
+      setGuess: this.setGuess,
       processLogin: this.processLogin,
       processLogout: this.processLogout,
     }

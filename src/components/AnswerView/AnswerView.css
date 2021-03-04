@@ -1,0 +1,8 @@
+.answer-view {
+  border: 2px solid #38618c;
+  text-align: center;
+}
+
+.answer-view > h3, p {
+  padding: 15px 20px 15px 20px;
+}
