@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #38618C;
-  color: white;
+  color: #ff5470;
 }
 
 /* H1 STYLES */
@@ -17,7 +17,7 @@ h1 > a {
   text-decoration: none;
 }
 
-h1 > a:visited { color: white; }
+h1 > a:visited { color: #ff5470; }
 
 /* NAV STYLES */
 
@@ -35,7 +35,7 @@ nav > a {
   margin-right: 15px;
 } */
 
-nav > a:visited { color: white; }
+nav > a:visited { color: #ff5470; }
 
 
 
