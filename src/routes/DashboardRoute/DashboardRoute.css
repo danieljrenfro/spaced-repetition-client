@@ -10,10 +10,12 @@
   margin-bottom: 10px;
   border-radius: 3px;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.start-practice:link { color: white; }
-.start-practice:visited { color: white; }
+.start-practice:link { color: #264669; }
+.start-practice:visited { color: #264669; }
 .start-practice:hover {
   background-color: #ff5470;
   letter-spacing: 1px;

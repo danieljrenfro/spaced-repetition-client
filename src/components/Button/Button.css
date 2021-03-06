@@ -4,13 +4,14 @@
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  background-color: #ff5470;
+  background-color: #7bbaea;
   border: none;
   border-radius: 3px;
-  color:#38618c;
+  color:#264669;
 }
 
 .Button:hover {  
   letter-spacing: 1px;
+  background-color: #ff5470;
   transition: all 0.4s ease 0s;
 }

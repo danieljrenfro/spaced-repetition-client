@@ -2,7 +2,7 @@
   text-align: center;
   width: 90vw;
   height: 70vh;
-  border: 2px solid #38618c;
+  border: 2px solid #264669;
   border-radius: 3px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -10,7 +10,7 @@
 
 .total-score {
   padding: 15px;
-  border-bottom: 2px solid #38618c;
+  border-bottom: 2px solid #264669;
   vertical-align: center;
   text-align: center;
   margin-top: 0px;

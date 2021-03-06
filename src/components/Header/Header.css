@@ -3,8 +3,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #38618C;
-  color: #ff5470;
+  background-color: #7bbaea;
+  color: #264669;
 }
 
 /* H1 STYLES */
@@ -17,7 +17,7 @@ h1 > a {
   text-decoration: none;
 }
 
-h1 > a:visited { color: #ff5470; }
+h1 > a:visited { color: #264669; }
 
 /* NAV STYLES */
 
@@ -35,7 +35,7 @@ nav > a {
   margin-right: 15px;
 } */
 
-nav > a:visited { color: #ff5470; }
+nav > a:visited { color: #264669; }
 
 
 
@@ -54,12 +54,13 @@ nav > a:visited { color: #ff5470; }
   /* H1 STYLES */
 
   h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin: 15px 0px 15px 15px;
   }
 
   h1 > a:hover { 
     letter-spacing: 1px;
+    text-decoration: underline;
     transition: all 0.4s ease-in-out;
   }
 
@@ -74,11 +75,13 @@ nav > a:visited { color: #ff5470; }
 
   nav > a {
     font-size: 20px;
+    font-weight: bold;
     margin-right: 25px;
   }
 
   nav > a:hover { 
     letter-spacing: 1px; 
+    text-decoration: underline;
     transition: all 0.4s ease-in-out;
   }
 }

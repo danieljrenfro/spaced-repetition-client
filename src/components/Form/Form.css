@@ -1,5 +1,5 @@
 .Label {
-  color: #38618c;
+  color: #264669;
   font-size: 24px;
   font-weight: lighter;
   margin-bottom: 5px;
@@ -7,7 +7,7 @@
 
 .Input {
   height: 3rem;
-  border: 2px solid #38618c;
+  border: 2px solid #264669;
   font-size: 24px;
   color: black;
   border-radius: 3px;

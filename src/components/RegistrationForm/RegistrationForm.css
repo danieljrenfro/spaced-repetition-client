@@ -21,7 +21,7 @@ form > footer {
 
 form > footer > a {
   width: fit-content;
-  color: #38618c;
+  color: #264669;
 }
 
 form > footer > a:active { color: #ff5470; }
@@ -30,7 +30,7 @@ form > footer > a:active { color: #ff5470; }
   form {
     width: 50vw;
     border-radius: 3px;
-    background-color: #38618c;
+    background-color: #264669;
     padding: 20px;
   }
 
